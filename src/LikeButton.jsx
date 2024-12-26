@@ -5,6 +5,7 @@ export default function LikeButton() {
     let toggleLike = () => {
         setIsLiked(!IsLiked);
         setclicked(clicked + 1);
+        // new feature is added 
     };
     
     return(
